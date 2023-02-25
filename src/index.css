@@ -58,3 +58,12 @@ body { background-color: #FFF;}
 
 .title { font-size: 30px; letter-spacing: 3px; margin-block: 10px;}
 .description { font-size: 15px;}
+
+
+/* FOOTER */
+footer p {
+  text-align: center;
+  letter-spacing: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
