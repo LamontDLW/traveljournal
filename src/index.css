@@ -1,0 +1,60 @@
+* {
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: monospace;
+}
+
+body { background-color: #FFF;}
+
+.nav {
+  background-color: #8ddbf1;
+  color: #FFF;
+  padding: 30px;
+  text-align: center;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: row;
+
+  background-color: #72dcf943;
+  padding: 40px;
+  border-radius: 2rem;
+  max-width: 60vw;
+}
+
+.card-img {
+  height: auto;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 1rem;
+}
+
+.inline-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.map-link {
+  background-color: #8ddbf1;
+  padding: 5px 0;
+  width: 110px;
+  text-align: center;
+  border-radius: 1rem;
+  margin-inline: 10px;
+}
+.map-link a { text-decoration: none; color: #320101; cursor: pointer; }
+.map-link:hover { opacity: 0.8; }
+
+.title { font-size: 30px; letter-spacing: 3px; margin-block: 10px;}
+.description { font-size: 15px;}
